@@ -1,0 +1,8 @@
+typeattribute untrusted_app_25 coredomain;
+
+app_domain(untrusted_app_25)
+untrusted_app_domain(untrusted_app_25)
+net_domain(untrusted_app_25)
+bluetooth_domain(untrusted_app_25)
+
+allow untrusted_app_25 untrusted_app_all_devpts:chr_file r_file_perms;

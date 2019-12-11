@@ -1,0 +1,19 @@
+typeattribute untrusted_app_27 coredomain;
+
+app_domain(untrusted_app_27)
+untrusted_app_domain(untrusted_app_27)
+net_domain(untrusted_app_27)
+
+allow untrusted_app_27 adb_keys_file:dir r_dir_perms;
+allow untrusted_app_27 apex_mnt_dir:dir r_dir_perms;
+allow untrusted_app_27 bootchart_data_file:dir r_dir_perms;
+allow untrusted_app_27 cache_file:lnk_file r_file_perms;
+allow untrusted_app_27 charger_exec:file x_file_perms;
+allow untrusted_app_27 configfs:dir r_dir_perms;
+allow untrusted_app_27 face_vendor_data_file:dir r_dir_perms;
+allow untrusted_app_27 install_data_file:file x_file_perms;
+allow untrusted_app_27 rootfs:file x_file_perms;
+allow untrusted_app_27 self:fifo_file r_file_perms;
+allow untrusted_app_27 sysfs:dir r_dir_perms;
+
+

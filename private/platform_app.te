@@ -1,0 +1,4 @@
+typeattribute platform_app coredomain;
+app_domain(platform_app)
+
+allow platform_app qchook_service:service_manager find;

@@ -1,2 +1,4 @@
 add_service(radio, qchook_service)
 add_service(radio, uce_service)
+
+allow radio system_app_data_file:dir r_dir_perms;
