@@ -1,1 +1,5 @@
 get_prop(priv_app, vendor_aware_available_prop)
+
+allow priv_app hal_light_hwservice:hwservice_manager find;
+allow priv_app property_socket:sock_file w_file_perms;
+
